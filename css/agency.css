@@ -689,3 +689,30 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
+#about {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-info {
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.marg-bottom {
+  margin-bottom: 20px;
+}
+
+#about {
+  margin-top: -100px;
+}
+
+.footer-list, footer, .social-buttons, .list-inline-item {
+  display: flex;
+  justify-content: center;
+}
