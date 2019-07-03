@@ -708,8 +708,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   margin-bottom: 20px;
 }
 
-#about {
-  margin-top: -100px;
+#profile-picture {
+  height: 200px;
+  width: auto;
 }
 
 .footer-list, footer, .social-buttons, .list-inline-item {
