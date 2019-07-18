@@ -41,3 +41,76 @@ ul.social-buttons {
     }
   }
 }
+
+.devicon-list {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.devicon-list > div {
+  margin: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .devicon-list > div {
+    width: 100px;
+    margin: 1.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .devicon-list > div {
+    width: 100px;
+    margin: 1.5rem .5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .devicon-list > div {
+    width: 100px;
+    margin: 1.5rem 1rem;
+    text-align: center;
+  }
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-info {
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.marg-bottom {
+  margin-bottom: 20px;
+}
+
+#profile-picture {
+  height: 200px;
+  width: auto;
+}
+
+.footer-list, footer, .social-buttons, .list-inline-item {
+  display: flex;
+  justify-content: center;
+}
+
+#skills {
+  width: 100%;
+}
