@@ -263,7 +263,6 @@ a {
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
-  max-width: 400px;
   margin: 0 auto;
   cursor: pointer;
 }
@@ -303,7 +302,6 @@ a {
 }
 
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
   margin: 0 auto;
   padding: 25px;
   text-align: center;
@@ -410,6 +408,11 @@ a {
 #portfolio {
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .timeline {
