@@ -42,7 +42,6 @@ h6 {
 .page-section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
 }
 
 .page-section h3.section-subheading {
@@ -80,6 +79,24 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+.section-heading {
+  padding: 1em 0 1em 0;
+  margin-bottom: 0;
+}
+
+#about, #skills {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#contact {
+  padding: 3em;
+}
+
+h2 {
+  margin-bottom: 0;
 }
 
 .btn {
@@ -319,7 +336,6 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-content h2 {
   font-size: 3em;
-  margin-bottom: 15px;
 }
 
 .portfolio-modal .modal-content p {
@@ -381,6 +397,11 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   background-color: #212529;
+}
+
+#portfolio {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .timeline {
