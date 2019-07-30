@@ -120,21 +120,36 @@ ul.social-buttons {
   }
 }
 
-@media only screen and (max-width: 800px) {
-  #profile-picture {
-    margin-bottom: 1em;
-  }
-}
-
 .lead {
   text-align: left;
 }
 
 @media only screen and (max-width: 800px) {
+  #profile-picture {
+    margin-bottom: 1em;
+  }
   .lead {
     text-align: center;
   }
+  .portfolio-blurb {
+    font-size: 10px;
+  }
 }
+
+@media only screen and (max-width: 1000px) {
+  .portfolio-blurb {
+    font-size: 12px;
+  }
+}
+
+// @media only screen and (max-width: 570px) {
+//   .portfolio-blurb {
+//     font-size: 12px;
+//   }
+// }
+
+
+
 
 .footer-list, footer, .social-buttons, .list-inline-item {
   display: flex;

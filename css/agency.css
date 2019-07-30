@@ -838,19 +838,25 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   }
 }
 
-@media only screen and (max-width: 800px) {
-  #profile-picture {
-    margin-bottom: 1em;
-  }
-}
-
 .lead {
   text-align: left;
 }
 
 @media only screen and (max-width: 800px) {
+  #profile-picture {
+    margin-bottom: 1em;
+  }
   .lead {
     text-align: center;
+  }
+  .portfolio-blurb {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .portfolio-blurb {
+    font-size: 12px;
   }
 }
 
