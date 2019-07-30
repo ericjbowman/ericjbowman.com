@@ -437,6 +437,14 @@ a {
   color: black;
 }
 
+.project-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
 .timeline {
   position: relative;
   padding: 0;
@@ -814,6 +822,36 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 #profile-picture {
   height: 200px;
   width: auto;
+}
+
+@media only screen and (min-width: 1200px) {
+  #profile-picture {
+    height: 300px;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #profile-picture {
+    height: 250px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #profile-picture {
+    margin-bottom: 1em;
+  }
+}
+
+.lead {
+  text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+  .lead {
+    text-align: center;
+  }
 }
 
 .footer-list, footer, .social-buttons, .list-inline-item {
