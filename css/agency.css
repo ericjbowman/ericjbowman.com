@@ -86,14 +86,9 @@ img::-moz-selection {
   margin-bottom: 0;
 }
 
-#about {
+#about, #skills {
   padding-top: 1em;
   padding-bottom: 1em;
-}
-
-#skills {
-  padding-top: 4em;
-  padding-bottom: 2em;
 }
 
 #nature-background {
@@ -150,7 +145,7 @@ h2 {
 }
 
 .btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(247, 212, 199 0.5) !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(247, 212, 199, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(247, 212, 199, 0.5) !important;
 }
 
@@ -311,18 +306,12 @@ a {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  font-size: 20px;
+  font-size: 16px;
   position: absolute;
-  top: 50%;
   width: 100%;
   height: 20px;
-  margin-top: -12px;
-  text-align: center;
+  padding: 1em;
   color: white;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-  margin-top: -12px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
@@ -823,9 +812,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 #profile-picture {
-  width: 100%;
-  height: auto;
-  padding-bottom: 2em;
+  height: 200px;
+  width: auto;
 }
 
 .footer-list, footer, .social-buttons, .list-inline-item {
