@@ -42,9 +42,17 @@ header.masthead {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         @include heading-font;
       }
     }
   }
+}
+
+button {
+  background-color: #f1af97;
+}
+
+a {
+  color: #016d8a;
 }

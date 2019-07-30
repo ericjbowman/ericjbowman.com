@@ -64,7 +64,7 @@
       <div class="intro-text">
         <div class="intro-heading text-uppercase">Eric Bowman</div>
         <div class="intro-lead-in">Software Engineer</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://docs.google.com/document/d/17cyUe_2q1Hw-c6AJrbEuEzn7a2_alIFCcaRLMv7Mpa4/export?format=pdf" download ><i class="fa fa-download"></i>Resume</a>
+        <a id="resume-button" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger resume" href="https://docs.google.com/document/d/17cyUe_2q1Hw-c6AJrbEuEzn7a2_alIFCcaRLMv7Mpa4/export?format=pdf" download ><i class="fa fa-download"></i>Resume</a>
       </div>
     </div>
   </header>
@@ -110,105 +110,84 @@
   <!-- Portfolio Grid -->
   <section class="bg-light page-section" id="portfolio">
     <div class="container">
-      <div class="row">
+      <div class="portfolio-header row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted"></h3>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="https://ericjbowman.github.io/RepRepo/">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
+          <div class="shadow">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
               </div>
+              <img class="img-fluid" src="img/portfolio/lunkedin.jpg" alt="Barbell">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Lunkedin</h4>
+              <p class="text-muted">Fitness App</p>
             </div>
-            <img class="img-fluid" src="img/portfolio/RepRepo.png" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>RepRepo</h4>
-            <p class="text-muted">Repertoire Repository</p>
           </div>
         </div>
         <div class="col-md-6 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="https://ericjbowman.github.io/Tictactoe-Eric/">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
+          <div class="shadow">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
               </div>
+              <img class="img-fluid" src="img/portfolio/reprepo.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>RepRepo</h4>
+              <p class="text-muted">Repertoire Repository</p>
             </div>
-            <img class="img-fluid" src="img/portfolio/Tictactoe.png" alt="Tic-tac-toe">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Tic-Tac-Toe</h4>
-            <p class="text-muted">Game</p>
           </div>
         </div>
         <div class="col-md-6 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="https://ebow-s-world.github.io/survey-says-client/">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
+          <div class="shadow">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
               </div>
+              <img class="img-fluid" src="img/portfolio/survey.jpg" alt="Sheet music">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Survey Says</h4>
+              <p class="text-muted">Full-Stack Group Project</p>
             </div>
-            <img class="img-fluid" src="img/portfolio/SurveySays.png" alt="Sheet music">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Survey Says</h4>
-            <p class="text-muted">Full-Stack Group Project</p>
           </div>
         </div>
         <div class="col-md-6 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
+          <div class="shadow">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
               </div>
+              <img class="img-fluid" src="img/portfolio/TicTacToe.jpg" alt="Tic-tac-toe">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Tic-Tac-Toe</h4>
+              <p class="text-muted">Game</p>
             </div>
-            <img class="img-fluid" src="img/portfolio/barbell.jpg" alt="Barbell">
-          </a>
-          <div class="portfolio-caption">
-            <h4>???</h4>
-            <p class="text-muted">Fitness App</p>
           </div>
         </div>
-        <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Southwest</h4>
-            <p class="text-muted">Website Design</p>
-          </div>
-        </div> -->
-        <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Window</h4>
-            <p class="text-muted">Photography</p>
-          </div>
-        </div> -->
-      <!-- </div>
+      </div>
     </div>
-  </section> -->
+  </section>
 
   <section id="about" class="container">
      	<div class="row section-intro">
      		<div class="col-twelve center">
-     			<h1 class="center">Allow Me To Introduce Myself</h1></br>
+     			<h1 class="center">About Me</h1></br>
      			<div class="intro-info marg-bottom">
      				<img id="profile-picture" src="Profpic2.jpg" alt="Profile Picture">
             <p class="lead">
@@ -552,92 +531,90 @@
         </div>
     </section> -->
 
-    <section class="page-section" id="services">
-    <div class="container">
-      <h1 class="text-center mt-0">Skillset</h1>
-      <hr class="divider my-4">
-
-      <div class="row devicon-list">
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/atom-original-wordmark.svg?size=100" alt="Android" data-toggle="tooltip" data-placement="top" title="Atom">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/javascript-original.svg?size=100" alt="JavaScript" data-toggle="tooltip" data-placement="top" title="JavaScript">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/bootstrap-plain-wordmark.svg?size=100&color=563d7c" alt="Bootstrap" data-toggle="tooltip" data-placement="top" title="Bootstrap">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/css3-original-wordmark.svg?size=100" alt="CSS" data-toggle="tooltip" data-placement="top" title="CSS">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/express-original.svg?size=100" alt="Express" data-toggle="tooltip" data-placement="top" title="Express">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/git-original-wordmark.svg?size=100" alt="Git" data-toggle="tooltip" data-placement="top" title="Git">
-        </div>
+    <section class="page-section" id="skills">
+      <div class="container">
+        <h1 class="text-center mt-0">Skillset</h1>
+        <hr class="divider my-4">
+        <div class="row devicon-list">
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/atom-original-wordmark.svg?size=100" alt="Android" data-toggle="tooltip" data-placement="top" title="Atom">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/javascript-original.svg?size=100" alt="JavaScript" data-toggle="tooltip" data-placement="top" title="JavaScript">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/bootstrap-plain-wordmark.svg?size=100&color=563d7c" alt="Bootstrap" data-toggle="tooltip" data-placement="top" title="Bootstrap">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/css3-original-wordmark.svg?size=100" alt="CSS" data-toggle="tooltip" data-placement="top" title="CSS">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/express-original.svg?size=100" alt="Express" data-toggle="tooltip" data-placement="top" title="Express">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/git-original-wordmark.svg?size=100" alt="Git" data-toggle="tooltip" data-placement="top" title="Git">
+          </div>
         </div>
         <div class="row devicon-list">
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/github-original-wordmark.svg?size=100" alt="GitHub" data-toggle="tooltip" data-placement="top" title="GitHub">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/html5-original-wordmark.svg?size=100" alt="HTML5" data-toggle="tooltip" data-placement="top" title="HTML5">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/handlebars-original-wordmark.svg?size=100" alt="Handlebars" data-toggle="tooltip" data-placement="top" title="Handlebars">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/heroku-original.svg?size=100" alt="Heroku" data-toggle="tooltip" data-placement="top" title="Heroku">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/jquery-original-wordmark.svg?size=100" alt="jQuery" data-toggle="tooltip" data-placement="top" title="jQuery">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/mongodb-original-wordmark.svg?size=100" alt="mongodb" data-toggle="tooltip" data-placement="top" title="mongodb">
-        </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/github-original-wordmark.svg?size=100" alt="GitHub" data-toggle="tooltip" data-placement="top" title="GitHub">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/html5-original-wordmark.svg?size=100" alt="HTML5" data-toggle="tooltip" data-placement="top" title="HTML5">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/handlebars-original-wordmark.svg?size=100" alt="Handlebars" data-toggle="tooltip" data-placement="top" title="Handlebars">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/heroku-original.svg?size=100" alt="Heroku" data-toggle="tooltip" data-placement="top" title="Heroku">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/jquery-original-wordmark.svg?size=100" alt="jQuery" data-toggle="tooltip" data-placement="top" title="jQuery">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/mongodb-original-wordmark.svg?size=100" alt="mongodb" data-toggle="tooltip" data-placement="top" title="mongodb">
+          </div>
         </div>
         <div class="row devicon-list">
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/nodejs-original.svg?size=100" alt="nodejs" data-toggle="tooltip" data-placement="top" title="nodejs">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/ruby-original-wordmark.svg?size=100" alt="Ruby" data-toggle="tooltip" data-placement="top" title="Ruby">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/rails-original-wordmark.svg?size=100" alt="Rails" data-toggle="tooltip" data-placement="top" title="Rails">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/react-original-wordmark.svg?size=100" alt="React" data-toggle="tooltip" data-placement="top" title="React">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/postgresql-original-wordmark.svg?size=100" alt="postgresql" data-toggle="tooltip" data-placement="top" title="postgresql">
-        </div>
-        <div data-aos="flip-up" data-aos-easing="linear"
-       data-aos-duration="300">
-          <img src="https://icongr.am/devicon/sass-original.svg?size=100" alt="Sass" data-toggle="tooltip" data-placement="top" title="Sass">
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/nodejs-original.svg?size=100" alt="nodejs" data-toggle="tooltip" data-placement="top" title="nodejs">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/ruby-original-wordmark.svg?size=100" alt="Ruby" data-toggle="tooltip" data-placement="top" title="Ruby">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/rails-original-wordmark.svg?size=100" alt="Rails" data-toggle="tooltip" data-placement="top" title="Rails">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/react-original-wordmark.svg?size=100" alt="React" data-toggle="tooltip" data-placement="top" title="React">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/postgresql-original-wordmark.svg?size=100" alt="postgresql" data-toggle="tooltip" data-placement="top" title="postgresql">
+          </div>
+          <div data-aos="flip-up" data-aos-easing="linear"
+         data-aos-duration="300">
+            <img src="https://icongr.am/devicon/sass-original.svg?size=100" alt="Sass" data-toggle="tooltip" data-placement="top" title="Sass">
+          </div>
         </div>
       </div>
-      </div>
-    </div>
-  </section>
+    </section>
   <!-- Footer -->
   <footer class="footer footer-list container" id="contact">
     <ul class="list-inline social-buttons">
@@ -675,15 +652,29 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <a class="modal-title" target="_blank" href="https://ericjbowman.github.io/Tictactoe-Eric/">
+                  <h2 class="text-uppercase modal-title">Tic-Tac-Toe</h2>
+                </a>
+                <p class="item-intro text-muted">First Project</p>
+                <a class="portfolio-link" target="_blank" href="https://ericjbowman.github.io/Tictactoe-Eric/">
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/tic-tac-toe.jpg" alt="tic-tac-toe" <a class="portfolio-link" target="_blank" href="https://ebow-s-world.github.io/survey-says-client/">
+                </a>
+                <p>Tic-Tac-Toe is my first web application. It features different levels of A.I. opponents, including one that is unbeatable. This game uses a third-party api to store user and game data.
+                </p>
+                <h4>Front-end Technologies:</h4>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
+                  <li>Javascript</li>
+                  <li>jQuery</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
+                  <li>Sass</li>
                 </ul>
+                <div>
+                  <a class="portfolio-link" target="_blank" href="https://ericjbowman.github.io/Tictactoe-Eric/">
+                    <h4>See the site!</h4>
+                  </a>
+                </div>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
@@ -696,7 +687,7 @@
   </div>
 
   <!-- Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -709,15 +700,35 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <a class="modal-title" target="_blank" href="https://ebow-s-world.github.io/survey-says-client/">
+                  <h2 class="text-uppercase modal-title">Survey Says</h2>
+                </a>
+                <p class="item-intro text-muted">Group Project</p>
+                <a class="portfolio-link" target="_blank" href="https://ebow-s-world.github.io/survey-says-client/">
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/computer.jpg" alt="laptop with graphs" <a class="portfolio-link" target="_blank" href="https://ebow-s-world.github.io/survey-says-client/">
+                </a>
+                <p>Survey Says is a full-stack web application that allows users to log in, create/update/delete surveys, take surveys, and view the results of surveys.
+                </p>
+                <h4>Front-end Technologies:</h4>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
+                  <li>Javascript</li>
+                  <li>jQuery</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
+                  <li>Sass</li>
                 </ul>
+                <h4>Back-end Technologies</h4>
+                <ul class="list-inline">
+                  <li>Express</li>
+                  <li>Mongoose</li>
+                  <li>MongoDB</li>
+                </ul>
+                <div>
+                  <a class="portfolio-link" target="_blank" href="https://ebow-s-world.github.io/survey-says-client/">
+                    <h4>See the site!</h4>
+                  </a>
+                </div>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
@@ -743,15 +754,34 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <a class="modal-title" target="_blank" href="https://ericjbowman.github.io/RepRepo/">
+                  <h2 class="text-uppercase modal-title">RepRepo</h2>
+                </a>
+                <p class="item-intro text-muted">Repertoire Repository</p>
+                <a class="portfolio-link" target="_blank" href="https://ericjbowman.github.io/RepRepo/">
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/SheetMusic.jpg" alt="Barbell" <a class="portfolio-link" target="_blank" href="https://ericjbowman.github.io/RoutineApp/#/">
+                </a>
+                <p>RepRepo is a full-stack web app, designed to allow a musicians to login, store a unique list of their repertoire, and compare it to other users’. The app is seeded with 1350 jazz standards that can be added to the user’s list. Once they are in the user’s list, they can only be deleted while tunes created by the user can be updated or deleted. The main purpose of the app is for users to get a list of shared tunes with other users. Musicians can create a set list of tunes everybody knows for jam sessions or gigs.
+                </p>
+                <h4>Front-end Technologies:</h4>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Finish</li>
-                  <li>Category: Identity</li>
+                  <li>Javascript</li>
+                  <li>jQuery</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
+                  <li>Sass</li>
                 </ul>
+                <h4>Back-end Technologies</h4>
+                <ul class="list-inline">
+                  <li>Ruby on Rails</li>
+                  <li>PostgreSQL</li>
+                </ul>
+                <div>
+                  <a class="portfolio-link" target="_blank" href="https://ericjbowman.github.io/RepRepo/">
+                    <h4>See the site!</h4>
+                  </a>
+                </div>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
@@ -777,15 +807,35 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <a class="modal-title" target="_blank" href="https://ericjbowman.github.io/RoutineApp/#/">
+                  <h2 class="text-uppercase modal-title">LunkedIn</h2>
+                </a>
+                <p class="item-intro text-muted">Full stack Fitness App</p>
+                <a class="portfolio-link" target="_blank" href="https://ericjbowman.github.io/RoutineApp/#/">
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Barbell.jpg" alt="Barbell" <a class="portfolio-link" target="_blank" href="https://ericjbowman.github.io/RoutineApp/#/">
+                </a>
+                <p>Lunkedin is a web application that creates a weight-lifting routine based on the user's input.
+                  The user inputs their squat, bench-press, and deadlift maximums, and get a 12 week program, consisting of 4 days a week, 3 circuits per day, with 2 or 3 exercises per circuit. The user can customize the routine by inputing their own exercises.
+                  This routine is ideal for lifters who want to get stronger, build muscle mass, and burn fat. The intensity undulates daily and weekly, and progresses in a linear fashion, monthly.
+                </p>
+                <h4>Front-end Technologies:</h4>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Lines</li>
-                  <li>Category: Branding</li>
+                  <li>Javascript</li>
+                  <li>React.js</li>
+                  <li>Material Ui</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
                 </ul>
+                <h4>Back-end Technologies</h4>
+                <ul class="list-inline">
+                  <li>Ruby on Rails</li>
+                  <li>PostgreSQL</li>
+                </ul>
+                <div>
+                  <a class="portfolio-link" target="_blank" href="https://ericjbowman.github.io/RoutineApp/#/">
+                    <h4>See the site!</h4>
+                  </a>
+                </div>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>

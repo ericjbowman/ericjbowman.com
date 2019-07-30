@@ -34,7 +34,6 @@ h6 {
   h2.section-heading {
     font-size: 40px;
     margin-top: 0;
-    margin-bottom: 15px;
   }
   h3.section-subheading {
     font-size: 16px;
@@ -68,4 +67,22 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+.section-heading {
+  padding: 1em 0 1em 0;
+  margin-bottom: 0;
+}
+
+#about, #skills {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#contact {
+  padding: 3em;
+}
+
+h2 {
+  margin-bottom: 0;
 }
