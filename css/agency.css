@@ -86,9 +86,24 @@ img::-moz-selection {
   margin-bottom: 0;
 }
 
-#about, #skills {
+#about {
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+#skills {
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+
+#nature-background {
+  background-image: url("../../img/nature.jpg");
+  background-size: cover;
+  background-position: fixed;
+}
+
+#opaque {
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 #contact {
@@ -97,6 +112,20 @@ img::-moz-selection {
 
 h2 {
   margin-bottom: 0;
+}
+
+.bg-light {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+
+#about {
+  background-color: white !important;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section-intro {
+  padding: 2em;
 }
 
 .btn {
@@ -794,8 +823,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 #profile-picture {
-  height: 200px;
-  width: auto;
+  width: 100%;
+  height: auto;
+  padding-bottom: 2em;
 }
 
 .footer-list, footer, .social-buttons, .list-inline-item {
