@@ -86,6 +86,7 @@ ul.social-buttons {
 #about {
   display: flex;
   justify-content: center;
+  margin-bottom: 2em;
 }
 
 .intro-info {
@@ -141,15 +142,6 @@ ul.social-buttons {
     font-size: 12px;
   }
 }
-
-// @media only screen and (max-width: 570px) {
-//   .portfolio-blurb {
-//     font-size: 12px;
-//   }
-// }
-
-
-
 
 .footer-list, footer, .social-buttons, .list-inline-item {
   display: flex;
