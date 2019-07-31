@@ -445,6 +445,10 @@ a {
   align-content: center;
 }
 
+.disappear {
+  display: none;
+}
+
 .timeline {
   position: relative;
   padding: 0;
