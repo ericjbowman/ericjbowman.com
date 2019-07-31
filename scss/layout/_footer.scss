@@ -187,3 +187,8 @@ ul.social-buttons {
   border-radius: .25rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
+.contactField:focus {
+  border-color: #ec9575;
+  box-shadow: none;
+}
