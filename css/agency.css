@@ -881,6 +881,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .contactField {
   margin: 0.5em 0 0 0;
   border-radius: .25rem;
+  border: none;
+  padding: 0.5em;
 }
 
 .message-body {
@@ -889,7 +891,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .send {
   margin: 0 auto;
-  padding: 0;
 }
 
 #contact {
