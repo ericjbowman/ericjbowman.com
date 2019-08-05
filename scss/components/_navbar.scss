@@ -12,8 +12,10 @@
     @include heading-font;
   }
   .navbar-brand {
+    font-size: 90%;
+    text-transform: uppercase;
     color: $primary;
-    @include script-font;
+    @include heading-font;
     &.active,
     &:active,
     &:focus,
@@ -48,7 +50,7 @@
     border: none;
     background-color: transparent;
     .navbar-brand {
-      font-size: 1.75em;
+      font-size: 90%;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
@@ -65,7 +67,7 @@
       padding-bottom: 0;
       background-color: $gray-900;
       .navbar-brand {
-        font-size: 1.25em;
+        font-size: 90%;
         padding: 12px 0;
       }
     }
