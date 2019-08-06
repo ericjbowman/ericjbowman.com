@@ -20,7 +20,7 @@
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: #8bbace;
     }
   }
   .navbar-nav {
@@ -34,7 +34,7 @@
         @include heading-font;
         &.active,
         &:hover {
-          color: $primary;
+          color: #8bbace;
         }
       }
     }
