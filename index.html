@@ -21,6 +21,7 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
 
@@ -83,7 +84,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-sm-6 portfolio-item">
+        <div class="col-md-6 col-sm-6 portfolio-item" data-aos="flip-left" data-aos-easing="linear"
+       data-aos-duration="500">
           <div class="shadow">
             <a class="portfolio-link" target="_blank" href="https://ericjbowman.github.io/RoutineApp/#/">
               <div class="portfolio-hover">
@@ -103,7 +105,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-sm-6 portfolio-item">
+        <div class="col-md-6 col-sm-6 portfolio-item" data-aos="flip-right" data-aos-easing="linear"
+       data-aos-duration="500">
           <div class="shadow">
             <a class="portfolio-link" target="_blank" href="https://ericjbowman.github.io/RepRepo/">
               <div class="portfolio-hover">
@@ -123,7 +126,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-sm-6 portfolio-item">
+        <div class="col-md-6 col-sm-6 portfolio-item" data-aos="flip-left" data-aos-easing="linear"
+       data-aos-duration="500">
           <div class="shadow">
             <a class="portfolio-link" target="_blank" href="https://ebow-s-world.github.io/survey-says-client/">
               <div class="portfolio-hover">
@@ -143,7 +147,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-sm-6 portfolio-item">
+        <div class="col-md-6 col-sm-6 portfolio-item" data-aos="flip-right" data-aos-easing="linear"
+       data-aos-duration="500">
           <div class="shadow">
             <a class="portfolio-link" target="_blank" href="https://ericjbowman.github.io/Tictactoe-Eric/">
               <div class="portfolio-hover">
@@ -174,10 +179,12 @@
           <div class="container">
        			<div class="pic-bio-container row">
               <div class="col-sm-12 col-md-4 col-lg-4">
-       			    <img id="profile-picture" src="Profpic2.jpg" alt="Profile Picture">
+       			    <img id="profile-picture" src="Profpic2.jpg" alt="Profile Picture" data-aos="zoom-in" data-aos-easing="linear"
+               data-aos-duration="200">
               </div>
               <div class="col-sm-12 col-md-8 col-lg-8">
-                <p class="lead">
+                <p class="lead" data-aos="zoom-in" data-aos-easing="linear"
+               data-aos-duration="200">
                 I am a software engineer with a passion for creative-problem solving and self-driven learning. My love for learning new skills and honing a craft led me to become a Doctor of Music, Certified Personal Trainer, and ultimately a software engineer. Software engineering provides a means of combining the creativity I enjoyed working as a musician with the analytical side that I enjoyed working as personal trainer. I hope to find a development role where I can continue to learn and bring creative projects to life.
                 </p>
               </div>
@@ -602,6 +609,10 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 

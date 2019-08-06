@@ -924,3 +924,26 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
+[data-aos="new-animation"] {
+  opacity: 0;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+}
+
+[data-aos="new-animation"].aos-animate {
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  [data-aos="new-animation"] {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  [data-aos="new-animation"].aos-animate {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
