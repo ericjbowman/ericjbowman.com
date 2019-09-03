@@ -31,6 +31,7 @@
         padding: 0.75em 0;
         letter-spacing: 1px;
         color: #016d8a;
+        transition: 0.5s;
         @include heading-font;
         &.active,
         &:hover {
